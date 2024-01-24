@@ -26,7 +26,7 @@ This repository contains four C programs, showcasing various aspects of programm
 #### 3. `Recover`
 
 - **Purpose**: A program for data recovery.
-- **Function**: Analyzes byte codes on an SD card to retrieve lost or deleted files.
+- **Function**: Analyzes Binary JPEG signatures on an SD card to retrieve lost or deleted files.
 
 #### 4. `Speller`
 
@@ -61,7 +61,7 @@ This repository contains four C programs, showcasing various aspects of programm
 #### 3. `Recover`
 
 - **目的**: データ復旧用のプログラム。
-- **機能**: SD カードのバイトコードを分析し、失われたまたは削除されたファイルを復旧する。
+- **機能**: SD カードの生のJPEGバイナリーデータを分析し、失われたまたは削除されたファイルを復旧する。
 
 #### 4. `Speller`
 
