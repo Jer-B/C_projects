@@ -2,168 +2,68 @@
 
 # English README 　[Jump to Japanese Version](#japanese)
 
-### C Photo Filter
+# C Programming Projects Repository
 
-**Description**  
-This program allows you to edit photos by inputting the photo name and path as parameters.  
-Examples: Changing the color of photos, applying blur, mirror effects, etc.
+## Overview
 
-Language: C  
-The code is provided below for testing.
+This repository contains four C programs, showcasing various aspects of programming in C. These projects include image filtering, data recovery, and dictionary implementations.
 
-1. Create files filter.c, helpers.c, bmp.h, and helpers.h in the same folder.
-2. Filter effects parameters:
-   - -b (Blur)
-   - -g (Grayscale)
-   - -r (Reflection)
-   - -s (Sepia)
-   - -e (Edge) [Only in filter_more program] [here](https://github.com/Jer-B/C_projects/tree/main/filter_more/filter)
-3. Compile the program.
-4. Run the program with this command. The parameter here is -g.
+### Projects
 
-**Usage**  
-Execute the following command:  
-`./filter -g images/yard.bmp out.bmp`
+#### 1. `filter_less`
 
-#### Photo Samples
+- **Functionality**: Image filtering with various effects.
+  - Grayscale
+  - Blur
+  - Reflection
+  - Sepia
+  - Custom Filter (Blur blue_sum=green)
 
-**「Original」**  
-<br/>
+#### 2. `Filter_more`
 
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/yard.bmp" width="900" alt="Original">
-</p>
-<br/>
+- **Additional Feature**: An extension to `filter_less`, including an Edge detection filter that highlights the lines and borders around objects in images.
 
-**「Blur」**  
-<br/>
+#### 3. `Recover`
 
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/blur.JPG" width="900" alt="Blur">
-</p>
-<br/>
+- **Purpose**: A program for data recovery.
+- **Function**: Analyzes byte codes on an SD card to retrieve lost or deleted files.
 
-**「Grayscale」**  
-<br/>
+#### 4. `Speller`
 
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/grayscale.JPG" width="900" alt="Grayscale">
-</p>
-<br/>
-
-**「Reflection」**  
-<br/>
-
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/reflect.JPG" width="900" alt="Reflection">
-</p>
-<br/>
-
-**「Sepia」**  
-<br/>
-
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/Sepia.JPG" width="900" alt="Sepia">
-</p>
-<br/>
-
-**「Blur blue_sum=green」**  
-<br/>
-
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/blur_blue_sum=green.JPG" width="900" alt="Sepia">
-</p>
-<br/>
-
-**「Edge」**  
-<br/>
-
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/Edge_out.bmp" width="900" alt="Sepia">
-</p>
-<br/>
+- **Type**: A dictionary-based program.
+- **Function**: Implements a spell-checker using efficient data structures.
 
 <a name="japanese"></a>
 
 # 日本語版の README
 
-### C・写真フィルター
+# C 言語プロジェクトレポジトリー
 
-**内容**  
-プログラムにパラメーターとして写真名とパスを入れて、写真自体を編集する事が出来るプログラムです。  
-例：写真の色を変えたり、ぼかし加工、ミラーエフェクトなど。
+## 概要
 
-言語: C  
-テストのため下にコードを載せました。
+このレポジトリーには、C 言語のプログラミングの様々な側面を示す 4 つの C プログラムが含まれています。これらのプロジェクトには、画像フィルタリング、データ復旧、辞書実装などがあります。
 
-1. 同じフォルダーに filter.c、helpers.c、bmp.h、helpers.h、のファイルを作成する。
-2. フィルターエフェクトのパラメーター:
-   - -b (Blur)
-   - -g (Grayscale)
-   - -r (Reflection)
-   - -s (Sepia)
-   - -e (Edge) [filter_more プログラムのみ] [こちら](https://github.com/Jer-B/C_projects/tree/main/filter_more/filter)
-3. コンパイルする。
-4. このコマンドでプログラムを実行する。パラメーターは-g となっています。
+### プロジェクト
 
-**使用方法**  
-下記のコマンドを実行する：  
-`./filter -g images/yard.bmp out.bmp`
+#### 1. `filter_less`
 
-#### 写真サンプル
+- **機能**: 様々な効果を持つ画像フィルタリング。
+  - グレースケール
+  - ブラー
+  - リフレクション
+  - セピア
+  - カスタムフィルター (Blur blue_sum=green)
 
-**「Original」**  
-<br/>
+#### 2. `Filter_more`
 
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/yard.bmp" width="900" alt="Original">
-</p>
-<br/>
+- **追加機能**: `filter_less`の拡張で、画像内のオブジェクト周囲の線と境界線を強調するエッジ検出フィルターを含む。
 
-**「Blur」**  
-<br/>
+#### 3. `Recover`
 
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/blur.JPG" width="900" alt="Blur">
-</p>
-<br/>
+- **目的**: データ復旧用のプログラム。
+- **機能**: SD カードのバイトコードを分析し、失われたまたは削除されたファイルを復旧する。
 
-**「Grayscale」**  
-<br/>
+#### 4. `Speller`
 
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/grayscale.JPG" width="900" alt="Grayscale">
-</p>
-<br/>
-
-**「Reflection」**  
-<br/>
-
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/reflect.JPG" width="900" alt="Reflection">
-</p>
-<br/>
-
-**「Sepia」**  
-<br/>
-
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/Sepia.JPG" width="900" alt="Sepia">
-</p>
-<br/>
-
-**「Blur blue_sum=green」**  
-<br/>
-
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/blur_blue_sum=green.JPG" width="900" alt="Sepia">
-</p>
-<br/>
-
-**「Edge」**  
-<br/>
-
-<p align="center">
-<img src="https://jer-b.github.io/assets/code_img/c/Edge_out.bmp" width="900" alt="Sepia">
-</p>
-<br/>
+- **タイプ**: 辞書ベースのプログラム。
+- **機能**: 効率的なデータ構造を使用してスペルチェッカーを実装する。
