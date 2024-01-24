@@ -6,7 +6,8 @@
 
 ## Overview
 
-The Speller project is a C program designed to spell-check a file using a hash table. This is about implementing efficient algorithms to optimize spell-checking speed.
+The Speller project is a C program designed to spell-check a file using a hash table. <br />
+This is about implementing efficient algorithms to optimize spell-checking speed.
 
 ### Key Features
 
@@ -44,7 +45,7 @@ The Speller project is a C program designed to spell-check a file using a hash t
 
 ## 概要
 
-スペラープロジェクトは、ハッシュテーブルを使用してファイルのスペルチェックを行う C プログラムです。
+スペラープロジェクトは、ハッシュテーブルを使用してファイルのスペルチェックを行う C プログラムです。<br />
 このスペルチェックの速度を最適化するための効率的なアルゴリズムを実装することに焦点を当てています。
 
 ### 主な特徴
